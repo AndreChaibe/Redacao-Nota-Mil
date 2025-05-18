@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seção professores</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style-global.css">
+    <link rel="stylesheet" href="./src/css/carrosel.css">
+    <link rel="stylesheet" href="./src/css/responsive-global.css">
+
+</head>
+
+<header class="cabecalho">
+
+    <nav id="navegacao-menu">
+
+        <div class="container-logo">
+            <a href="./index.html"><img src="./src/image/Logo-redação-nota-mil.png" alt="Logo da Redação Nota Mil"></a>
+        </div>
+
+        <ul class="menu">
+            <li><a href="./index.html">Página Inicial</a></li>
+            <li><a href="./professores.html">Professores</a></li>
+            <li><a href="./localizacao.html">localização</a></li>
+        </ul>
+
+        <div class="container-icones-mini-menu">
+            <i id="botao-menu-hamburguer" class="fa-solid fa-bars"></i>
+            <i id="botao-fechar-menu" class="fa-solid fa-x esconder"></i>
+        </div>
+
+    </nav>
+
+</header>
+
+<nav id="navegacao-mini-menu">
+    <ul id="mini-menu" class="escondido-menu">
+        <li><a href="./index.html">Página Inicial</a></li>
+        <li><a href="./professores.html">Professores</a></li>
+        <li><a href="./localizacao.html">Localização</a></li>
+    </ul>
+</nav>
+
+<body class="pagina-carrosel">
+
+    <header class="cabecalho-secundario">
+
+        <a href="./index.html" class="conteudo-header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                    d="m7 12l5-5v3h4v4h-4v3zm14-7v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2m-2 0H5v14h14z" />
+            </svg>
+            <p>Voltar</p>
+        </a>
+
+    </header>
+
+    <section class="container-carrosel">
+
+        <div id="carrosel">
+
+            <div id="container-informacoes">
+                <h2>Equipe do preparatório <br> ENEM</h2>
+                <img id="imagem-professor" src="./src/image/professor-matemática.jpeg" alt="professor-da-instituição">
+                <h3 id="professor">Charles Elias Mattos</h3>
+                <p id="descricao">Professor em Matemática atuando com dedicação no ensino da
+                    disciplina, buscando sempre tornar os conteúdos acessíveis e interessantes para os alunos. Com uma
+                    abordagem didática, clara e acolhedora, ele incentiva o raciocínio lógico, a resolução de problemas
+                    e o pensamento crítico em sala de aula.</p>
+            </div>
+
+            <i class="fa-solid fa-arrow-left seta desativa-clique"></i>
+            <i class="fa-solid fa-arrow-right seta"></i>
+
+        </div>
+
+    </section>
+
+    <footer class="rodape">
+        <p>© Redação Nota Mil.Todos os direitos Rersevados.</p>
+        <p>Site desenvolvido por: <a href="https://www.linkedin.com/in/andre-chaibe/" target="_blank">André Chaibe</a>
+        </p>
+    </footer>
+
+    <script type="module" src="./src/js/carrosel.js"></script>
+    <script src="./src/js/menu.js"></script>
+
+</body>
+
+</html>

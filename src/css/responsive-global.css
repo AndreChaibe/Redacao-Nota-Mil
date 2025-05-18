@@ -1,0 +1,485 @@
+@media (min-height: 1020px) {
+
+    section.container-carrosel {
+        height: 100%;
+        margin: 15vh 0px;
+    }
+
+}
+
+@media (min-width: 2530px) {
+
+    #navegacao-menu .menu li a {
+        font-size: 20px;
+    }
+
+    .introducao-instituicao .imagem-instituicao {
+        width: 700px;
+        height: 375px;
+    }
+
+    .introducao-instituicao .container-conteudo {
+        width: 30%
+    }
+
+}
+
+@media (max-width: 2530px) {
+
+    .introducao-instituicao .imagem-instituicao {
+        width: 600px;
+        height: 345px;
+    }
+
+    .introducao-instituicao .container-conteudo {
+        width: 36%;
+    }
+
+    .informacoes-compra .combos .combo button {
+        margin: 0px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1921px) {
+    .introducao-instituicao .container-conteudo {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1537px) {
+    .introducao-instituicao .container-conteudo {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1383px) {
+
+    .introducao-instituicao {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 70px 0px 80px 0px;
+    }
+
+    .introducao-instituicao .container-conteudo {
+        width: 65%;
+        order: 2;
+    }
+
+    .introducao-instituicao img.imagem-instituicao {
+        width: 400px;
+        height: 240px;
+    }
+}
+
+@media (max-width: 1250px) {
+
+    #navegacao-menu ul.menu {
+        display: none;
+        margin-right: 0px;
+        gap: 0vh;
+    }
+
+    ul.menu li {
+        display: none;
+    }
+
+    .cabecalho #navegacao-menu .container-logo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    main section.banner::after {
+        width: 190%;
+    }
+
+}
+
+@media (min-width: 1250px) {
+    .container-icones-mini-menu {
+        display: none;
+        width: 0px;
+    }
+
+    #navegacao-mini-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 1153px) {
+
+    .feedbacks ul {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .feedbacks {
+        padding: 15px 20px;
+    }
+
+
+    .feedbacks ul li:last-child {
+        margin-bottom: 64px;
+    }
+}
+
+
+@media (max-width: 1077px) {
+    .introducao-instituicao .container-conteudo {
+        width: 87%;
+    }
+}
+
+@media (max-width: 900px) {
+
+    section.banner .conteudo-banner h2 {
+        font-size: 46px;
+    }
+}
+
+@media (max-width: 850px) {
+
+    .pagina-contato h2 {
+        margin: 8px;
+        justify-content: center;
+    }
+
+    .secao-localizacao {
+        flex-direction: column;
+    }
+
+    section.secao-localizacao ul {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+    }
+
+    .secao-localizacao ul li {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+
+    section.secao-localizacao ul li i {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 22px;
+    }
+
+    section.secao-localizacao ul li div span,
+    section.secao-localizacao ul li div p {
+        text-align: center;
+    }
+
+    .mapa-container {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 826px) {
+
+
+
+    section.banner .conteudo-banner {
+        margin-left: 4%;
+        color: #ffffff;
+        z-index: 1;
+    }
+
+    .informacoes-compra .combos {
+        flex-direction: column;
+    }
+
+    .informacoes-compra .combos:last-child {
+        margin-bottom: 30px;
+    }
+
+    .introducao-instituicao .container-conteudo {
+        padding: 0px;
+        box-shadow: none;
+        width: 95%;
+        background-color: #ffffff;
+    }
+
+    div#carrosel {
+        border-radius: 10px;
+    }
+
+    div#carrosel #descricao {
+        max-width: 420px;
+    }
+}
+
+@media (max-width: 794px) {
+
+    section.banner .conteudo-banner h1 {
+        font-size: 40px;
+        border: none;
+    }
+
+}
+
+@media (max-width: 690px) {
+
+    .container-conteudo .titulo {
+        font-size: 23px;
+    }
+
+    section.banner .conteudo-banner h1 {
+        font-size: 35px;
+        max-width: 450px;
+    }
+
+    section.banner .conteudo-banner p {
+        max-width: 440px;
+    }
+
+    .feedbacks::after {
+        border-radius: 0px;
+    }
+
+
+    .container-carrosel .seta {
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 10px;
+        right: 5%;
+    }
+
+    .container-carrosel .seta:first-of-type {
+        left: 5%;
+    }
+
+}
+
+@media (max-width: 640px) {
+
+    div.container-conteudo .descricao,
+    div.container-conteudo li,
+    div.caracteristicas {
+        font-size: 15px;
+    }
+
+    .caracteristicas-instituicao li p.detalhamento {
+        max-width: 250px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 555px) {
+
+    header.cabecalho-secundario .conteudo-header {
+        margin-left: 0px;
+    }
+
+    header.cabecalho-secundario .conteudo-header {
+        font-size: 18px;
+    }
+
+    .container-icones-mini-menu {
+        margin: 20px 0px 0px 10px;
+        font-size: 30px;
+    }
+
+    .container-logo a img {
+        width: 220px;
+    }
+
+    main section.banner::after {
+        height: 100%;
+        width: 200%;
+        background: linear-gradient(70deg, rgba(2, 16, 53, 0.8), rgba(2, 20, 68, 0.8) 36%, transparent 65%);
+    }
+
+    section.banner .conteudo-banner h2 {
+        font-size: 35px;
+    }
+
+    section.banner .conteudo-banner p {
+        font-size: 18px;
+        max-width: 350px;
+    }
+
+    section.banner .conteudo-banner button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 493px) {
+
+    div.mensagem h3 {
+        font-size: 24px;
+    }
+
+    body h2.titulo-secao {
+        font-size: 20px;
+    }
+
+    section.secao-localizacao ul li {
+        padding: 10px 10px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .container-carrosel .seta {
+        right: 25%;
+        top: 53%;
+    }
+
+    .container-carrosel .seta:first-of-type {
+        left: 25%;
+    }
+
+    div#carrosel #professor {
+        margin: 70px 5px 10px 5px;
+    }
+
+    #container-informacoes img {
+        width: 230px;
+        height: 200px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 444px) {
+
+    .informacoes-compra .combo {
+        padding: 10px;
+        width: 260px;
+        height: 192px;
+    }
+
+    .informacoes-compra .combos p {
+        max-width: 220px;
+    }
+
+
+    .informacoes-compra .combo p span {
+        font-size: 24px;
+    }
+
+
+    #container-informacoes h2 {
+        width: 100%;
+        font-size: 20px;
+        border-radius: 0px;
+    }
+}
+
+@media (max-width: 430px) {
+
+    section.banner .conteudo-banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 10px;
+    }
+
+
+    main section.banner::after {
+        height: 100%;
+        width: 200%;
+        background: linear-gradient(90deg, rgba(2, 16, 53, 0.8), rgba(2, 20, 68, 0.8) 100%, transparent 65%);
+    }
+
+
+    section.banner .conteudo-banner h1 {
+        font-size: 30px;
+        max-width: 390px;
+        text-align: center;
+    }
+
+    #mini-menu li a {
+        font-size: 17px;
+    }
+
+    #mini-menu {
+        width: 210px;
+    }
+
+    .container-logo a img {
+        width: 180px;
+    }
+
+    .feedbacks ul {
+        margin: 0px;
+    }
+}
+
+@media (max-width: 418px) {
+
+    .container-conteudo .titulo {
+        font-size: 19px;
+        border-radius: 20px;
+        padding: 25px 15px;
+        max-width: 480px;
+    }
+
+    .introducao-instituicao img.imagem-instituicao {
+        width: 270px;
+        height: 180px;
+        margin: 0px;
+    }
+
+    .feedbacks h2 {
+        width: 100%;
+    }
+
+    .feedbacks ul li {
+        min-width: 100px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    section.banner .conteudo-banner h1 {
+        font-size: 26px;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    section.banner .conteudo-banner p {
+        margin: 40px 8px 0px 8px;
+    }
+
+    .caracteristicas-instituicao li {
+        margin: 0px 10px;
+    }
+
+
+    .caracteristicas-instituicao li div.caracteristica {
+        margin: 0px 59px;
+    }
+
+    div#carrosel {
+        height: 750px;
+    }
+}
+
+@media (max-width: 328px) {
+
+    section.banner .conteudo-banner h2 {
+        font-size: 24px;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    #navegacao-mini-menu ul {
+        width: 210px;
+    }
+
+    #mini-menu {
+        height: 20em;
+    }
+
+    #mini-menu li {
+        margin: 25px;
+    }
+}

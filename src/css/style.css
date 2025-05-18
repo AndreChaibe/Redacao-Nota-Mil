@@ -1,0 +1,333 @@
+body {
+    background: url("../image/background-introducao-instituicao.png") no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    background: linear-gradient(70deg, rgba(74, 74, 74, 0.3), rgba(96, 96, 96, 0.3));
+}
+
+header.cabecalho {
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+main section.banner {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 40em;
+    gap: 30px;
+    background: url("../image/backrgound-várias-redações.png") no-repeat center;
+    background-size: cover;
+}
+
+main section.banner::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 140%;
+    background: linear-gradient(70deg, rgba(2, 16, 53, 0.8), rgba(3, 17, 57, 0.8) 36%, transparent 65%);
+}
+
+section.banner .conteudo-banner {
+    margin-left: 8%;
+    color: #ffffff;
+    z-index: 1;
+}
+
+section.banner .conteudo-banner h1 {
+    font-size: 56px;
+    border-bottom: 5.5px solid #e4e006;
+}
+
+section.banner .conteudo-banner h1 span {
+    color: #e4e41c;
+    background-color: #1462aa;
+    border-radius: 5px;
+    padding: 0px 6px;
+    margin: 0px 2px 0px 3px;
+}
+
+section.banner .conteudo-banner p {
+    font-family: "Exo 2", sans-serif;
+    max-width: 600px;
+    text-align: justify;
+    hyphens: auto;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+section.banner .conteudo-banner button {
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border: 4px solid #d3d30d;
+    transition: 0.4s ease-in-out;
+    color: #000;
+}
+
+
+section.banner .conteudo-banner button:hover {
+    color: #ffffff;
+    background-color: #252525;
+    background: none;
+}
+
+.introducao-instituicao {
+    display: flex;
+    margin: 160px 0px 10px 0px;
+    width: 100%;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+}
+
+.introducao-instituicao .container-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+    margin: 0px 20px;
+    gap: 20px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #faf8f8;
+    box-shadow: 1px 1px 40px 10px rgba(0, 0, 0, 0.7);
+    padding: 28px 25px;
+}
+
+.introducao-instituicao .titulo {
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    background-color: rgb(228, 228, 28);
+    border-radius: 20px;
+    padding: 25px 35px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: 1px 1px 6px 1px #252525;
+    text-align: center;
+    max-width: 550px;
+    margin: 0px 15px 10px 15px;
+    position: relative;
+}
+
+.introducao-instituicao .titulo::after {
+    content: "Matrículas abertas";
+    font-size: 16px;
+    position: absolute;
+    top: -16px;
+    right: -1px;
+    color: #ffffff;
+    background-color: #199c0e;
+    padding: 8px;
+    border-radius: 7px;
+}
+
+.introducao-instituicao .container-conteudo .descricao {
+    max-width: 500px;
+    margin: 0px 30px;
+    hyphens: auto;
+    text-align: center;
+}
+
+.caracteristicas-instituicao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+    gap: 28px;
+    width: 100%;
+}
+
+.caracteristicas-instituicao li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    min-width: 390px;
+}
+
+.caracteristicas-instituicao li .caracteristica {
+    display: flex;
+    gap: 5px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.caracteristicas-instituicao li .caracteristica i {
+    font-size: 20px;
+    color: #199c0e;
+}
+
+.container-conteudo .informacoes-compra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.informacoes-compra .combos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    gap: 10px;
+    text-align: center;
+}
+
+.informacoes-compra .combo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #faf8f8;
+    gap: 30px;
+    padding: 10px;
+    width: 360px;
+    height: 202px;
+    font-size: 16px;
+    border: 3px solid #d3d30d;
+}
+
+.caracteristicas-instituicao .detalhamento {
+    text-align: center;
+}
+
+.informacoes-compra .combo p span {
+    font-size: 30px;
+    text-align: center;
+}
+
+.informacoes-compra .combos .combo button {
+    background-color: rgba(48, 205, 48, 0.8);
+    border: none;
+    border-radius: 15px;
+    padding: 12px 10px;
+    margin: 0px 80px;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+    animation: animacao-botoes 0.5s ease-out infinite alternate;
+}
+
+.informacoes-compra .combos .combo button:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+
+.introducao-instituicao .imagem-instituicao {
+    margin: 0px 10px;
+    border-radius: 6%;
+    border: 6px solid #1462aa;
+}
+
+.feedbacks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 72px;
+    gap: 50px;
+    background: url("../image/background-feedbacks.png") no-repeat center;
+    background-size: cover;
+    padding: 80px;
+    color: #ffffff;
+    position: relative;
+}
+
+.feedbacks::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(70deg, rgba(3, 99, 254, 0.5), rgba(6, 66, 164, 0.5));
+}
+
+.feedbacks ul {
+    display: flex;
+    gap: 40px;
+    margin: 0px 40px;
+    z-index: 1;
+}
+
+.feedbacks h2 {
+    border: 4px solid #f5f5ec;
+    padding: 15px;
+    margin: 15px;
+    z-index: 1;
+}
+
+.feedbacks ul li {
+    color: #000;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    text-align: justify;
+    font-style: italic;
+    text-transform: inherit;
+    hyphens: auto;
+    min-width: 345px;
+    transition: 0.4s ease-in-out;
+    border-top: 8px solid #d3d30d;
+}
+
+.feedbacks ul li i {
+    color: rgb(231, 229, 229);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feedbacks ul li p {
+    max-width: 430px;
+}
+
+.estudante {
+    display: flex;
+    align-items: flex-end;
+    font-style: normal;
+    position: absolute;
+    bottom: -39px;
+    left: -0px;
+    color: #ffffff;
+    background-color: #0040ff;
+    border-radius: 50px;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+    border-radius: 3px;
+}
+
+.estudante:hover {
+    color: #000;
+    background-color: #d3d30d
+}
+
+@keyframes animacao-botoes {
+    from {
+        border-radius: 1px;
+        box-shadow: 1px 1px 1px 6px rgba(48, 205, 48, 0.6);
+    }
+}
