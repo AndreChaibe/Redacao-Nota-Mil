@@ -1,15 +1,6 @@
 body {
     background: url("../image/background-introducao-instituicao.png") no-repeat center;
     background-size: cover;
-    position: relative;
-}
-
-body::before {
-    content: "";
-    position: absolute;
-    height: 80%;
-    width: 100%;
-    background: linear-gradient(70deg, rgba(74, 74, 74, 0.3), rgba(96, 96, 96, 0.3));
 }
 
 header.cabecalho {
@@ -240,7 +231,7 @@ section.banner .conteudo-banner button:hover {
 .introducao-instituicao .imagem-instituicao {
     margin: 0px 10px;
     border-radius: 6%;
-    border: 6px solid #1462aa;
+    border: 10px solid #1462aa;
 }
 
 .feedbacks {
@@ -251,7 +242,9 @@ section.banner .conteudo-banner button:hover {
     text-align: center;
     margin-top: 72px;
     gap: 50px;
-    background: url("../image/background-feedbacks.png") no-repeat center;
+    background: url("../image/background-feedbacks.png") center;
+    animation: fundo-em-movimento 20s infinite alternate;
+    background-size: 500% 100%;
     background-size: cover;
     padding: 80px;
     color: #ffffff;
@@ -274,7 +267,8 @@ section.banner .conteudo-banner button:hover {
 }
 
 .feedbacks h2 {
-    border: 4px solid #f5f5ec;
+    background-color: #0938d1;
+    border: 4px solid #cece08;
     padding: 15px;
     margin: 15px;
     z-index: 1;
@@ -329,5 +323,15 @@ section.banner .conteudo-banner button:hover {
     from {
         border-radius: 1px;
         box-shadow: 1px 1px 1px 6px rgba(48, 205, 48, 0.6);
+    }
+}
+
+@keyframes fundo-em-movimento {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: 100%;
     }
 }

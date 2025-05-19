@@ -71,6 +71,13 @@
         width: 400px;
         height: 240px;
     }
+
+    .introducao-instituicao .imagem-instituicao {
+        margin: 0px 10px;
+        border-radius: 0px;
+        border: 6px solid #ececec;
+    }
+
 }
 
 @media (max-width: 1250px) {
@@ -231,8 +238,8 @@
     }
 
     section.banner .conteudo-banner h1 {
-        font-size: 35px;
-        max-width: 450px;
+        font-size: 33px;
+        max-width: 430px;
     }
 
     section.banner .conteudo-banner p {
