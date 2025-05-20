@@ -1,6 +1,6 @@
 const slide1 = {
     professor: "Charles Elias Mattos",
-    descricao: "Professor em Matemática atuando com dedicação no ensino da disciplina, buscando sempre tornar os conteúdos acessíveis e interessantes para os alunos. Com uma abordagem didática, clara e acolhedora, ele incentiva o raciocínio lógico, a resolução de problemas e o pensamento crítico em sala de aula",
+    descricao: "Professor em Matemática atuando com dedicação no ensino da disciplina, buscando sempre tornar os conteúdos acessíveis e interessantes para os alunos. Com uma abordagem didática, clara e acolhedora, ele incentiva o raciocínio lógico, a resolução de problemas e o pensamento crítico em sala de aula.",
     imagem: "./src/image/professor-matemática.jpeg"
 }
 
