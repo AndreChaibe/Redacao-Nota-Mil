@@ -104,7 +104,7 @@ header.cabecalho {
 }
 
 .escondido-menu {
-    display: none;
+    display: none !important;
     transform: translateX(300px);
 }
 

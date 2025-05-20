@@ -425,6 +425,10 @@
 }
 
 @media (max-width: 418px) {
+    
+    html {
+        overflow-x: hidden;
+    }
 
     .container-conteudo .titulo {
         font-size: 19px;
